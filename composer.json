@@ -1,0 +1,24 @@
+{
+    "name": "ksfraser/ksf-forms",
+    "description": "Form builder library with CF7 integration",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["forms", "cf7", "contact-form-7", "wordpress", "crm"],
+    "homepage": "https://github.com/ksfraser/ksf_Forms",
+    "autoload": {
+        "psr-4": {
+            "Ksfraser\\Forms\\": "src/Ksfraser/Forms/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ksfraser\\Forms\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+}
